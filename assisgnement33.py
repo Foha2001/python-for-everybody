@@ -1,4 +1,4 @@
-score = input("Enter Score between 0 and 1: ")
+score = input("Enter Score between 0 and 1 : ")
 scores=float(score)
 if scores<1 and scores>0:
     if scores>=0.9:
