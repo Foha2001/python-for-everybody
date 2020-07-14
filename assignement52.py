@@ -4,9 +4,9 @@ while True:
     num = input("Enter a number: ")
     if num is not "done":
         try:
-    	   numin=int(num)
+             numin=int(num)
         except:
-           print("Invalid input")
+            print("Invalid input")
     if largest is None:
         largest=numin
     elif largest<numin:
